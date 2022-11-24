@@ -3,6 +3,7 @@
 This HASCAD provide the two scenario.
 
 ### Model trained on PBMC results
+The genes are regard to  
 
 ### Training your model
 
