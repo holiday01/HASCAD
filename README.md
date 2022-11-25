@@ -3,10 +3,11 @@
 This HASCAD provide the two scenario.
 
 ### Model trained on PBMC results
-The reference gene are regard to [genes](https://github.com/holiday01/HASCAD/blob/main/Source/gene.csv)
-While you prepare your gene expression matrix, you should check if the your gene list is same as this tutorial, and order it as our gene list.
-You can follow the example file for your [query](https://github.com/holiday01/HASCAD/blob/main/Source/Example.csv).
-Here the `Example.csv` you can choice if expression data is transformed by symphony.
+While you prepare your gene expression matrix, you should check if the sort of genes is as same as the [reference genes](https://github.com/holiday01/HASCAD/blob/main/Source/gene.csv).
+You can follow the [example file](https://github.com/holiday01/HASCAD/blob/main/Source/Example.csv) for your query.
+
+#### At starting
+You can run the `main.ipynb` and get a result.
 
 #### Without Symphony-Harmony
 And, your can modify [this script](https://github.com/holiday01/HASCAD/blob/main/Model/main.ipynb) to replace the file "Example.csv".
@@ -16,11 +17,19 @@ sample = pd.read_csv("../Source/Example.csv",header=None)
 #### With Symphony-Harmony
 
 
+
+#### Run your query
+The gene expression without/with Symphony-Harmony.
+
 Then you can run the script and obtain a plot like [this](https://github.com/holiday01/HASCAD/blob/main/Result/result.png)
 
 ![alt text](https://github.com/holiday01/HASCAD/blob/main/Result/result.png)
 
 ### Training your model
+The two steps in this section. The first is that you will prepare your reference data and query data. The second is that the HASCAD trained by the reference data to predict the cell composition of query data.
+
+#### With Symphony-Harmony
+
 `make preparations`
 
 ## Require
