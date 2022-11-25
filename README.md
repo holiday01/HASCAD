@@ -1,6 +1,6 @@
 # HASCAD
 ## Concept
-This HASCAD provide the two scenario.
+The HASCAD is a cell composition deconvolution model to predict the 15 immune cell abundance from RNA-seq data, which the emdenble depp learning model trained on three PBMC scRNA-seq. We utilize the Harmony and Symphony to do pre-processing and remove batch effects between scRNA-seq to build the reference data.
 
 ### Model trained on PBMC results
 While you prepare your gene expression matrix, you should check if the sort of genes is as same as the [reference genes](https://github.com/holiday01/HASCAD/blob/main/Source/gene.csv).
