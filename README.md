@@ -16,7 +16,11 @@ sample = pd.read_csv("../Source/Example.csv",header=None)
 ```
 #### With Symphony-Harmony
 
-
+Run `Harmony-Symphony/HS_main.R`
+And, your can modify [this script](https://github.com/holiday01/HASCAD/blob/main/Model/main.ipynb) to replace the file "Example.csv".
+```
+sample = pd.read_csv("Harmony-Symphony/hs_exmple_output.csv",header=None)
+```
 
 #### Run your query
 The gene expression without/with Symphony-Harmony.
