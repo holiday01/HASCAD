@@ -3,7 +3,7 @@
 This HASCAD provide the two scenario.
 
 ### Model trained on PBMC results
-The genes are regard to [genes](https://github.com/holiday01/HASCAD/blob/main/Source/gene.csv)
+The reference gene are regard to [genes](https://github.com/holiday01/HASCAD/blob/main/Source/gene.csv)
 While you prepare your gene expression matrix, you should check if the your gene list is same as this tutorial, and order it as our gene list.
 You can follow the example file for your [query](https://github.com/holiday01/HASCAD/blob/main/Source/Example.csv).
 Here the `Example.csv` you can choice if expression data is transformed by symphony.
